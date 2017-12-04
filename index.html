@@ -1,18 +1,17 @@
 
 <html>
   <head>
-    <link rel="prefetch" src="file://home.html" crossorigin="use-credentials">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
   </head>
-  <body>
+  <body onresize="adjust('pre')">
     <div class="container">
     <div class="jumbotron" >
       <div class="header">
         <h2 >
-          <pre style="background-color: black; border: none; color:white;">
+          <pre id="pre" style="background-color: black; border: none; color:white;">
          #########   #########  ###########    #########    ##########                 ###########     ###########       ##########       #       #
         #       #   #               #         #       #    #        #                       #         #                 #                #       #
       #       #   #               #         #       #    #        #                       #         #                 #                #       #
@@ -30,8 +29,7 @@
         <a href="#" onclick="src('bbs')">BBS</a>
       </div>
 
-
-        <div class="column middle">
+        <div id="divf" class="column middle">
           <iframe id="frame" src="home.html"  width=100% style="border: none;" onload="rsifr()"></iframe>
         </div>
         </div>

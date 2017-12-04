@@ -1,7 +1,5 @@
 
 
-
-
 html, body{
   margin: 30px;
   background-color: black;
@@ -88,8 +86,8 @@ html, body{
 
 .credits {
   margin-top: 25px;
-  margin-right: 500px;
-  border-top: 2px solid white;
+  margin-right: 50px;
+  /*border-top: 2px solid white;*/
   padding-left: 90px;
-  margin-left: 500px;
+  margin-left: 50px;
 }

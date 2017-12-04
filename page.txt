@@ -1,0 +1,33 @@
++---------------------------------------------------+
+|                     RETRO-TECH                    |
++---------------------------------------------------+
+| >Home< | DOS Games | Programming | Oddware | BBS  |
+|---------------------------------------------------|
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
++---------------------------------------------------+
+
+
+//Home
+-Descriere site
+-Harta site jos
+
+
+//DOS Games
+DOOM, Wolfenstein, Ultima, Daggerfall
+
+//Programming
+Basic
+Unix
+C
+Borland
+
+//Oddware
+LGR
+
+//BBS
+-Descriere bulletin board
+-Exemple

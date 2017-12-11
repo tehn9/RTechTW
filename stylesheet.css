@@ -10,12 +10,16 @@ html, body{
 
 .container
 {
-  border: 13px solid transparent;
   padding: 15px;
-  border-image: url(border.png) 100 round;
   background-color: black;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.asciiBorder
+{
+  border: 13px solid transparent;
+  border-image: url(border.png) 90 round;
 }
 
 .jumbotron
@@ -50,13 +54,13 @@ html, body{
     width: 100%;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
+*/
 /* Style the footer */
 .footer {
     background-color: #f1f1f1;
@@ -64,19 +68,20 @@ html, body{
     text-align: center;
 }
 .topnav {
-    border: 13px solid transparent;
-    border-image: url(border.png) 80 round;
     overflow: hidden;
+    width: fit-content;
+    margin: auto;
 }
 
 /* Style the topnav links */
 .topnav a {
-    float: left;
+    width: 100%;
+    /*float: center;*/
     display: block;
-    font-size: 2.5em;
-    color: #f2f2f2;
+    font-size: 1.5em;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
 }
 .topnav a:hover {
@@ -86,8 +91,6 @@ html, body{
 
 .credits {
   margin-top: 25px;
-  margin-right: 50px;
-  /*border-top: 2px solid white;*/
-  padding-left: 90px;
-  margin-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }

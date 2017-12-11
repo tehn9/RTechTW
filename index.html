@@ -6,8 +6,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
   </head>
-  <body onresize="adjust('pre')">
-    <div class="container">
+  <body onload="adjust('pre');" onresize="adjust('pre')">
+    <div class="container asciiBorder">
     <div class="jumbotron" >
       <div class="header">
         <h2 >
@@ -21,19 +21,24 @@
 #      #    #########       #         #      #     ##########                       #         ###########        ##########      #       #</pre></h2>
       </div>
 
-      <div class="topnav">
-        <a href="#" onclick="src('home')">Home</a>
-        <a href="#" onclick="src('jocuri_dos')">Jocuri DOS</a>
-        <a href="#" onclick="src('programare')">Programare</a>
-        <a href="#" onclick="src('oddware')">Oddware</a>
-        <a href="#" onclick="src('bbs')">BBS</a>
+      <div class="topnav asciiBorder" >
+        <table>
+          <tr>
+            <td><a href="#" onclick="src('home')">Home</a></td>
+            <td><a href="#" onclick="src('jocuri_dos')">Jocuri DOS</a></td>
+            <td><a href="#" onclick="src('programare')">Programare</a></td>
+            <td><a href="#" onclick="src('oddware')">Oddware</a></td>
+            <td><a href="#" onclick="src('bbs')">BBS</a></td>
+          </tr>
+        </table>
       </div>
 
-        <div id="divf" class="column middle">
-          <iframe id="frame" src="home.html"  width=100% style="border: none;" onload="rsifr()"></iframe>
-        </div>
+        <div class="column middle">
         </div>
       </div>
+      </div>
+      <div>
       <p class="credits text-center" >Written and coded by <a href="https://www.freecodecamp.org/fccece620d8" target="_blank">Radu Vlad</a>.</p>
+    </div>
   </body>
 </html>

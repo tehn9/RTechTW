@@ -17,7 +17,7 @@
 
 
 //DOS Games
-DOOM, Wolfenstein, Ultima, Daggerfall
+ DOOM, System Shock, Ultima, Daggerfall
 
 //Programming
 Basic

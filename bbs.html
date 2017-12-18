@@ -1,51 +1,64 @@
-<!DOCTYPE html>
+
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <style>
-    html, body {
-      height:100%;
-    }
-    </style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </head>
-  <body>
-    <p>
-      <pre>
+  <body onload="adjust('pre');" onresize="adjust('pre')">
+    <div class="container asciiBorder">
+    <div class="jumbotron" >
+      <div class="header">
+        <h2 >
+          <pre id="pre" style="background-color: black; border: none; color:white;">
+         #########   #########  ###########    #########    ##########                 ###########     ###########       ##########       #       #
+        #       #   #               #         #       #    #        #                       #         #                 #                #       #
+      #       #   #               #         #       #    #        #                       #         #                 #                #       #
+    #########   #####           #         #########    #        #        ######         #         #####             #                #########
+   #    #      #               #         #    #       #        #                       #         #                 #                #       #
+ #     #     #               #         #     #      #        #                       #         #                 #                #       #
+#      #    #########       #         #      #     ##########                       #         ###########        ##########      #       #</pre></h2>
+      </div>
 
-      +---------------------------------------------------+
-      |                     RETRO-TECH                    |
-      +---------------------------------------------------+
-      | >Home< | DOS Games | Programming | Oddware | BBS  |
-      |---------------------------------------------------|
-      |                                                   |
-      |                                                   |
-      |                                                   |
-      |                                                   |
-      |                                                   |
-      |___________________________________________________|
-
-  </pre>
-      //Home<br>
-      -Descriere site<br>
-      -Harta site jos<br>
-
-
-      //DOS Games<br>
-      DOOM, Wolfenstein, Ultima, Daggerfall<br>
-
-      //Programming<br>
-      Basic<br>
-      Unix<br>
-      C<br>
-      Borland<br>
-
-      //Oddware<br>
-      LGR<br>
-
-      //BBS<br>
-      -Descriere bulletin board<br>
-      -Exemple<br>
-
-    </p>
+      <div class="topnav asciiBorder" >
+        <table>
+          <tr>
+            <td><a href="index.html" >Home</a></td>
+            <td><a href="dosg.html">DOOM</a></td>
+            <td><a href="prog.html">UNIX</a></td>
+            <td><a href="odd.html">Oddware</a></td>
+            <td><a href="bbs.html">BBS</a></td>
+          </tr>
+        </table>
+      </div>
+        <div class="column middle">
+          <div class="article_head"><pre class="asciiArt">
+##########    ##########    ########&nbsp;
+##       ##   ##       ##   ##      &nbsp;
+#########     #########      ##     &nbsp;
+##       ##   ##       ##      ##   &nbsp;
+##       ##   ##       ##         ##&nbsp;
+##########    ##########    ########&nbsp;
+          </pre>
+          <div class="article_image"><img src="kc.jpg"><br><br></div>
+        </div>
+        <div class="article_body"> Un Bulletin Board System, adeseori cunosct sub acronimul BBS, este un computer sau un tip de computere, pe care se folosește un anumit tip de software care permite utilizatorilor sistemului să se conecteze și să se logheze într-un sistem utilizând un program de terminal. Inițial, aceste sisteme erau accesibile doar printr-o linie telefonică utilizând un modem, dar la inceputul anilor 90, unele dintre acestea au devenit accesibile via Telnet sau unde radio.
+<br>
+Odată ce un utilizator este conectat la această rețea, acesta poate efectua diferite funcții, așa cum ar fi încărcarea sau descărcarea de programe și date, citirea de știri și schimb de mesaje cu alți utilizatori ai rețelei. Multe dintre aceste BBS ofereau și jocuri on-line, în care utilizatorii puteau concura între ei, iar acele BBS-uri care aveau linii telefonice multiple ofereau camere de discuții de tip IRC (așa numitele chat room).
+<br>
+În ultimii ani, termenul BBS este utilizat uneori incorect pentru referiri la diferite tipuri de forumuri.
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pA9hC3Bm6L8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen style="margin:inherit;"></iframe>
+BBS a fost practic bunicul http-ului si a internetului cum il stim azi. BBS-urile erau folosite pentru a downloada diverse fisiere si programe shareware, pentru a juca anumite jocuri specifice mediului si ca message board-uri, din acestea urmand sa se inspire forumul contemporan.
+<br>
+<img src="chic.jpeg" alt="bbs welcome" width="90%" class="article_image">
+</div>
+        </div>
+      </div>
+      </div>
+      <div>
+      <p class="credits text-center" >Written and coded by <a href="https://www.freecodecamp.org/fccece620d8" target="_blank">Radu Vlad</a>.</p>
+    </div>
   </body>
 </html>

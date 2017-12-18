@@ -1,0 +1,90 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body onload="adjust('pre');" onresize="adjust('pre')">
+    <div class="container asciiBorder">
+    <div class="jumbotron" >
+      <div class="header">
+        <h2 >
+          <pre id="pre" class="asciiArt">
+         #########   #########  ###########    #########    ##########                 ###########     ###########       ##########       #       #
+        #       #   #               #         #       #    #        #                       #         #                 #                #       #
+      #       #   #               #         #       #    #        #                       #         #                 #                #       #
+    #########   #####           #         #########    #        #        ######         #         #####             #                #########
+   #    #      #               #         #    #       #        #                       #         #                 #                #       #
+ #     #     #               #         #     #      #        #                       #         #                 #                #       #
+#      #    #########       #         #      #     ##########                       #         ###########        ##########      #       #</pre></h2>
+      </div>
+
+      <div class="topnav asciiBorder" >
+        <table>
+          <tr>
+            <td><a href="index.html" >Home</a></td>
+            <td><a href="dosg.html">DOOM</a></td>
+            <td><a href="prog.html">UNIX</a></td>
+            <td><a href="odd.html">Oddware</a></td>
+            <td><a href="bbs.html">BBS</a></td>
+          </tr>
+        </table>
+      </div>
+        <div class="column middle">
+          <div class="article_head"><pre class="asciiArt">
+##      ##   ##         ##    ##    ##        ## &nbsp;
+##      ##   ## ##      ##    ##     ##      ##  &nbsp;
+##      ##   ##   ##    ##    ##       ##  ##    &nbsp;
+##      ##   ##     ##  ##    ##         ##      &nbsp;
+##      ##   ##       ####    ##      ##    ##   &nbsp;
+##########   ##         ##    ##    ##        ## &nbsp;</pre>
+<img src="Ken_n_dennis.jpg" class="article_image" alt="unix creators"></img>
+<div class="article_quote">Kevin Thompson si Dennis Ritchie<br>Dezvoltatorii primei versiuni UNIX</div>
+</div>
+
+        <div class="article_body">
+          UNIX® este un sistem de operare inițiat de un grup de programatori de la ATT Bell Labs, printre care Ken Thompson, Dennis Ritchie, Brian Kernighan, Douglas McIlroy și Joe Ossanna. Astăzi există mai multe variante ale sistemului, acestea fiind dezvoltate atât de firme comerciale cât și de indivizi și organizații non-profit (precum Free Software Foundation).
+<br>Sistemul de operare Unix este folosit pe scară largă atât pentru servere cât și pentru stații de lucru. Mediul de dezvoltare Unix și modelul de programare client-server au fost esențiale în dezvoltarea Internetului și trecerea de la sistemele de calculatoare individuale la sistemele de calculatoare în rețea.
+
+Atât Unix-ul cât și limbajul de programare C au fost dezvoltate de AT&amp;T și distribuite guvernului și instituțiilor academice, ceea ce a dus la portarea lor pe un număr mai mare de calculatoare diferite decât orice alt sistem de operare. Astfel, UNIX-ul a devenit în informatică sinonim cu noțiunea de sistem deschis (open system).
+<br>
+<br>
+<div class="article_image"><img src="UNIX-Licence-Plate.JPG" width="50%" class="article_image"><div class="article_quote">Material promotional UNIX de la  Digital Equipment Corporation</div></div>
+<br>
+Sistemul de operare UNIX a fost conceput de la bun început ca portabil, multi-user și multi-tasking, și este caracterizat de următoarele concepte informatice de bază: datele sunt stocate în format text simplu într-un sistem de fișiere ierarhic; dispozitivele și toate elementele IPC (inter-process communication) sunt văzute ca fișiere; se folosește pe larg linia de comandă; în loc de programe monolitice masive se preferă programe simple care au o singură funcție, aceste programe fiind cascadate folosind facilitatea pipe pentru a obține funcționalitatea dorită.
+<br>
+Sistemul UNIX constă din totalitatea acestor programe și a unui program master care controlează sistemul. Acest program poartă numele de nucleu sau kernel și oferă servicii precum: pornirea și oprirea altor programe; accesul la sistemul de fișiere; gestionarea resurselor și dispozitivelor hardware, etc.
+<br>Sistemele de operare bazate pe UNIX sau derivate din acesta urmeaza urmatoarea structura de fisiere:
+        <table id="asciiTable">
+          <tr><th>Dosar</th><th>Descriere</th></tr>
+          <tr><td>/</td><td>root (radacina sistemului de fisiere)</td></tr>
+          <tr><td>/bin</td><td>sunt stochate fiserele binare pentru programe si utilitare de sistem (top, ls, cd, etc)</td></tr>
+          <tr><td>/boot</td><td>contine fisierele necesare pentru bootarea sistemului (bootloader,grub, etc)</td></tr>
+          <tr><td>/dev</td><td>prescurtat de la devices, contine fisiere ce reprezinta perifericele conctate la calculator</td></tr>
+          <tr><td>/etc</td><td>contine fisiere de configuratie a sistemului si baze de date, prescurtare de la 'et cetera'</td></tr>
+          <tr><td>/home</td><td>contine directoare de lucru pentru fiecare utilizator</td></tr>
+          <tr><td>/lib</td><td>contine librariile importante pentru compilarea (in general librarii C) programelor sau uneori a modulelor de kernel</td></tr>
+          <tr><td>/media</td><td>director pentru 'montarea' dispozitivelor de stocare externe (DVD-uri, stickuri, etc)</td></tr>
+          <tr><td>/mnt</td><td>folosit pentru creearea de puncte de montare temporare</td></tr>
+          <tr><td>/root</td><td>directorul "superuserului"</td></tr>
+          <tr><td>/sys</td><td>contine date despre sistemul de operare si componentele hardware ale calculatorului</td></tr>
+          <tr><td>/usr</td><td>contine programe ce nu sunt critice pentru sistem</td></tr>
+          <tr><td>/var</td><td>folosit la stocarea logurilor sau a fisierelor temporare(lista de sarcini pentru imprimanta, emailuri, etc.)</td></tr>
+        </table>
+
+        Pentru mai multe informatii se pot consulta urmatoarele pagini :<br>
+        <ol>
+          <li> <a href="https://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie</a></li>
+          <li> <a href="https://en.wikipedia.org/wiki/Unix">UNIX</a> [<a href="https://ro.wikipedia.org/wiki/UNIX">ro</a>]</li>
+          <li> <a href="https://uit.stanford.edu/service/sharedcomputing/unix">Documentatie UNIX</a></li>
+        </ol>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div>
+      <p class="credits text-center" >Written and coded by <a href="https://www.freecodecamp.org/fccece620d8" target="_blank">Radu Vlad</a>.</p>
+    </div>
+  </body>
+</html>

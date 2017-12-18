@@ -94,6 +94,7 @@ html, body{
 .article_head{
   text-align: center;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .article_body{
